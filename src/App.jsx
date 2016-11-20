@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import './App.css';
-import Functional from './Functional';
+import InputBox from './InputBox';
 import SyllableCount from './SyllableCount';
 
 class App extends Component {
@@ -9,6 +9,7 @@ class App extends Component {
           <div className="App">
               <h2>Haiku</h2>
               <SyllableCount />
+              <InputBox />
           </div>
         );
     }

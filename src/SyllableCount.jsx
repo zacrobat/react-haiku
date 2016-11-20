@@ -14,7 +14,7 @@ class SyllableCount extends React.Component {
   render () {
     return (
     <h3>Syllable count:
-    {syllableCounter('forest trees and bark')}
+    {syllableCounter('forest trees and bark tree yes')}
     </h3>
     )
   }

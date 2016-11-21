@@ -1,5 +1,17 @@
 .App {
   text-align: center;
+  font-size: 32px;
+}
+input, button {
+  font-size: 32px;
+  background-color: green;
+  color: black;
+  outline-color: cornflowerblue;
+  border: none;
+  text-align: center;
+  margin: 12px;
+  padding: 0 12px;
+  border-radius: 4px;
 }
 
 .App-logo {

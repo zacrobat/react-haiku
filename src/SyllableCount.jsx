@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import InputBox from './InputBox';
 
 function syllableCounter(word) {
     word = word.toLowerCase();
@@ -13,9 +14,13 @@ function syllableCounter(word) {
 class SyllableCount extends React.Component {
   render () {
     return (
-    <h3>Syllable count:
-    {syllableCounter('forest trees and bark tree yes')}
-    </h3>
+      <div>
+        <h3>
+          Syllable count:
+          {(" " + syllableCounter('forest trees and bark'))}
+        </h3>
+
+      </div>
     )
   }
 }
